@@ -2,11 +2,12 @@
 
 ## Teammates
 Joshua Tyndale	jtyndale@rams.colostate.edu
-Stephen Harayda	sharayda@colostate.edu
-Dziugas Butkus	dziugas@rams.colostate.edu
+Stephen Harayda	
+Dziugas Butkus
 
 ## Project
 CS455 Term project - Using Spark for Scalable Analytics
+Using Apache Spark, a mapreduce implementation was used to analyze 6GB of data, and results were put into visual form.
 
 ## Files
 indeedProg.py		- PySpark code to break down and analyze indeed job data
@@ -30,7 +31,7 @@ export SPARK_WORKER_CORES=2
 export SPARK_WORKER_MEMORY=2g
 export SPARK_WORKER_INSTANCES=2
 
-Slaves
+Slaves:
 maggot
 mosquito
 lice
@@ -45,3 +46,30 @@ dung-beetle
 
 spark-defaults.conf
 spark.master                     spark://tick:30155
+
+
+#Rent By Region
+
+
+<img src="https://github.com/jtyndale9/MapReduce_TechJobs/blob/main/rentByRegionGraph.png" width=250><br>
+
+
+#Rent By State
+
+
+<img src="https://github.com/jtyndale9/MapReduce_TechJobs/blob/main/StatesGraph.png" width=250><br>
+
+#Highest Cost Cities
+
+
+<img src="https://github.com/jtyndale9/MapReduce_TechJobs/blob/main/Cost_match_cities_graph.png" width=250><br>
+
+#Listings By Region
+
+
+<img src="https://github.com/jtyndale9/MapReduce_TechJobs/blob/main/RegionsMostListingsGraph.png" width=250><br>
+
+#Companies Hiring the most
+
+
+<img src="https://github.com/jtyndale9/MapReduce_TechJobs/blob/main/CompaniesGraph.png" width=250><br>
