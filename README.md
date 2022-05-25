@@ -1,12 +1,11 @@
 # MapReduce_TechJobs
 
-## Teammates
-Joshua Tyndale	jtyndale@rams.colostate.edu
-Stephen Harayda	
-Dziugas Butkus
+
+Joshua Tyndale	josh.tyndale@gmail.com
+
 
 ## Project
-CS455 Term project - Using Spark for Scalable Analytics
+Using Spark for Scalable Analytics
 Using Apache Spark, a mapreduce implementation was used to analyze 6GB of data, and results were put into visual form.
 
 ## Files
